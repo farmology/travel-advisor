@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/travel-advisor/static/css/main.073c9b0a.css",
+    "main.js": "/travel-advisor/static/js/main.a68f07dd.js",
+    "static/js/787.b92d5f48.chunk.js": "/travel-advisor/static/js/787.b92d5f48.chunk.js",
+    "index.html": "/travel-advisor/index.html",
+    "main.073c9b0a.css.map": "/travel-advisor/static/css/main.073c9b0a.css.map",
+    "main.a68f07dd.js.map": "/travel-advisor/static/js/main.a68f07dd.js.map",
+    "787.b92d5f48.chunk.js.map": "/travel-advisor/static/js/787.b92d5f48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a68f07dd.js"
+  ]
+}
