@@ -6,6 +6,7 @@ import useStyles from './styles';
 
 const Header = () => {
     const classes = useStyles();
+    
     return (
         <AppBar position="static">
             <Toolbar className={classes.toolbar}>
@@ -13,7 +14,12 @@ const Header = () => {
                     Travel Advisor
                 </Typography>
             </Toolbar>
-            <Box display="flex">
+            <Box 
+                sx={{
+                    display: "flex",
+                    flexDirection: 'row',
+                }}
+                >
                 <Typography variant="h6" className={classes.title}>
                     Explore new places...
                 </Typography>
@@ -22,7 +28,7 @@ const Header = () => {
                         <div className={classes.searchIcon}>
                             <SearchIcon />
                         </div>
-                        <InputBase placeholder="Search..." classes={{ root: classes.inputRoot, input: classes.inputInput}}/>
+                        <InputBase placeholder="Search..." classes={{ root: classes.inputRoot, input: classes.inputInput }}/>
                     </div>
                 {/* </Autocomplete> */}
             </Box>
